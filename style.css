@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    border: 1px solid green;
+    width: 600px;
+    height: 600px;
+    align-self: center;
+}
+.gridElement {
+    border: 1px solid black;
+}
+
+.HUD {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+} 
+
+.btn {
+    
+    margin:2px ;
+    padding: 1px 12px;
+    font-size: 20px;
+    border: 2.5px solid rgb(71, 49, 49);
+    background-color:  aquamarine;
+}
+.pixelCount {
+    margin:2px ;
+    padding: 1px 12px;
+    border: 2.5px solid rgb(71, 49, 49);
+    background-color: aqua;
+    
+}
+.Generate {
+    margin:2px ;
+    margin-left: 328px;
+    padding: 1px 12px;
+    font-size: 20px;
+    border: 2.5px solid rgb(71, 49, 49);
+    background-color:  aquamarine;
+}
